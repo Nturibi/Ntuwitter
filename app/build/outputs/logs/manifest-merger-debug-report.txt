@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/0de4571c4311858d8c60ae60f98a00d1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/874875dbdb2fb00c47a0a6f96503601d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a1dedfc8c6b808de9b07cd2fee60f87f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/ef405205ba3090865b5b27020c037c1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/38bb19bf867f131f32a74f42880d44ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/6a9877256a901f0487fc909354c0bf75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/4d0c77b8002826188ec7d9718d904a1a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/eacc68732fb69ccaede2c3bc585ebc85/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/17a1ea4d1e62c72e374fc22084363645/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/70139d4bfa2dbf21abd696f94a4c6f79/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/7b250b526fe2caf5ca81f5005fc757c0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/6e591bf03cf300946c7d2b862a7428f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/1572ba44281d7c4dee406e568879f87e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/72ff7120f29cf10bcd1299e3ff115787/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e81ad20f703622654b95fd537522bcf9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d316db07be45ab67fe5cb61a1b06a68e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0be02b8c29e506daf6cf99cca81425a1/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a1dedfc8c6b808de9b07cd2fee60f87f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a1dedfc8c6b808de9b07cd2fee60f87f/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.codepath.apps.restclienttemplate.LoginActivity
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:18:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/0de4571c4311858d8c60ae60f98a00d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/0de4571c4311858d8c60ae60f98a00d1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/874875dbdb2fb00c47a0a6f96503601d/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/874875dbdb2fb00c47a0a6f96503601d/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a1dedfc8c6b808de9b07cd2fee60f87f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/a1dedfc8c6b808de9b07cd2fee60f87f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/ef405205ba3090865b5b27020c037c1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/ef405205ba3090865b5b27020c037c1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/38bb19bf867f131f32a74f42880d44ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/38bb19bf867f131f32a74f42880d44ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/6a9877256a901f0487fc909354c0bf75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/6a9877256a901f0487fc909354c0bf75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/4d0c77b8002826188ec7d9718d904a1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/4d0c77b8002826188ec7d9718d904a1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/eacc68732fb69ccaede2c3bc585ebc85/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/eacc68732fb69ccaede2c3bc585ebc85/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/17a1ea4d1e62c72e374fc22084363645/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/17a1ea4d1e62c72e374fc22084363645/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/70139d4bfa2dbf21abd696f94a4c6f79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/70139d4bfa2dbf21abd696f94a4c6f79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/7b250b526fe2caf5ca81f5005fc757c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/7b250b526fe2caf5ca81f5005fc757c0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/6e591bf03cf300946c7d2b862a7428f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/6e591bf03cf300946c7d2b862a7428f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/1572ba44281d7c4dee406e568879f87e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/1572ba44281d7c4dee406e568879f87e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/72ff7120f29cf10bcd1299e3ff115787/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/72ff7120f29cf10bcd1299e3ff115787/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e81ad20f703622654b95fd537522bcf9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e81ad20f703622654b95fd537522bcf9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d316db07be45ab67fe5cb61a1b06a68e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d316db07be45ab67fe5cb61a1b06a68e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0be02b8c29e506daf6cf99cca81425a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/knturibi/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/0be02b8c29e506daf6cf99cca81425a1/AndroidManifest.xml:20:5-44
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/knturibi/Documents/codecamp/Ntuwitter/app/src/main/AndroidManifest.xml
