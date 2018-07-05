@@ -5,6 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ComposeActivity">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/txtLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="140"
+        app:counterTextAppearance="@style/counterText"
+        app:counterOverflowTextAppearance="@style/counterOverride">
 
     <EditText
         android:id="@+id/etTweet"
@@ -14,13 +22,16 @@
         android:hint="What's up?"
         android:layout_height="78dp" />
 
+    </android.support.design.widget.TextInputLayout>
+
+
     <Button
         android:id="@+id/btTweet"
         android:onClick="onClickPost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/etTweet"
+        android:layout_below="@+id/txtLayout"
         android:text="Post" />
 
 </RelativeLayout>
