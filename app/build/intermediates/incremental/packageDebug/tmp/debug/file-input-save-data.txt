@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 05 14:11:33 PDT 2018
+#Fri Jul 06 00:17:40 PDT 2018
 1.base=/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/transforms/dexMerger/debug/15
 2.path=classes.dex
 0.baseType=DIRECTORY

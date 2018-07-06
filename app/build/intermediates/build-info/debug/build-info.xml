@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.2"
-    timestamp="1530830609126"
+    timestamp="1530919093736"
     token="4098400644917958614"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1530827414397"
+        timestamp="1530907573643"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -73,7 +73,37 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1530830609126"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1530918573276"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1530919093736"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"

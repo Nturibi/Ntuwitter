@@ -10,7 +10,8 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        app:srcCompat="@android:color/black" />
+        app:srcCompat="@android:color/black"
+        android:foreground="@drawable/rounded_corners_fg" />
 
     <TextView
         android:id="@+id/tvUserName"
@@ -20,23 +21,78 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="1dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="TextView" />
+        android:text="Username"
+        android:textColor="@color/txtColor"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvUserName"
         android:layout_below="@+id/tvUserName"
-        android:layout_marginLeft="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="" />
+        android:layout_marginStart="0dp"
+        android:text="Body"
+        android:textColor="@color/txtColor" />
 
     <TextView
         android:id="@+id/tvTime"
+        android:textColor="@color/txtColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_margin="5dp"
-        android:text="" />
+        android:text="Time" />
+
+    <RelativeLayout
+        android:id="@+id/rlProps"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvBody"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/ivProfileImage">
+
+
+        <ImageView
+            android:id="@+id/ivNumLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:tint="@color/twitter_blue"
+            app:srcCompat="@drawable/ic_vector_heart" />
+
+        <TextView
+            android:id="@+id/tvNumLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ivNumLikes"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/txtColor" />
+
+        <ImageView
+            android:id="@+id/ivNumRetweet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="63dp"
+            android:tint="@color/twitter_blue"
+
+            app:srcCompat="@drawable/ic_vector_retweet" />
+
+        <TextView
+            android:id="@+id/tvNumRetweet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/ivNumRetweet"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/txtColor" />
+    </RelativeLayout>
+
 </RelativeLayout>

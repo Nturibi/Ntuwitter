@@ -8,20 +8,22 @@
         <!--app:showAsAction="ifRoom"-->
         <!--android:title="Compose">-->
     <!--</item>-->
-    <item
-        android:id="@+id/miActionProgress"
-        android:title="Loading..."
-        android:visible="false"
-        android:orderInCategory="100"
-        app:showAsAction="always"
-        app:actionLayout="@layout/action_view_progress" />
 
     <item
         android:id="@+id/miCompose"
         android:icon="@drawable/vector_compose_shortcut"
-        android:title="Compose"
         android:onClick="onComposeAction"
-        app:showAsAction="ifRoom"></item>
+        android:orderInCategory="101"
+        android:title="Compose"
+        android:iconTint="@color/twitter_blue"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/miActionProgress"
+        android:orderInCategory="100"
+        android:title="Loading..."
+        android:visible="false"
+        app:actionLayout="@layout/action_view_progress"
+        app:showAsAction="always" />
     <!--<item-->
         <!--android:id="@+id/miProfile"-->
         <!--android:icon="@drawable/ic_profile"-->

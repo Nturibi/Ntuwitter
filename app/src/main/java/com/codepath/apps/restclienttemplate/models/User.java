@@ -11,6 +11,8 @@ public class User  {
     public long uid;
     public String screenName;
     public String profileImageUrl;
+    public String followersCount;
+    public String tweetCount;
 
     public User(){}
 
@@ -22,6 +24,8 @@ public class User  {
         user.uid = json.getLong("id");
         user.screenName = json.getString("screen_name");
         user.profileImageUrl = json.getString("profile_image_url");
+        user.followersCount = json.getString("followers_count");
+        user.tweetCount = json.getString("statuses_count");
         return user;
     }
 

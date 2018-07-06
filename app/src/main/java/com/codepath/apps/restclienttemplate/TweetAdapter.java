@@ -1,8 +1,10 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,9 +14,15 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
 
+import org.parceler.Parcels;
+
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
+
     private List <Tweet> mTweets;
     Context context;
 
@@ -44,6 +52,8 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         holder.tvUsername.setText(tweet.user.name);
         holder.tvBody.setText(tweet.body);
         holder.tvTime.setText(tweet.time);
+        holder.tvNumRetweet.setText(Integer.toString(tweet.retweetCount));
+        holder.tvNumLikes.setText(Integer.toString(tweet.favouriteCount));
         //load image using glideapp
         Glide.with(context).load(tweet.user.profileImageUrl).into(holder.ivProfileImage);
     }
@@ -63,20 +73,36 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         notifyDataSetChanged();
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
-        public ImageView ivProfileImage;
-        public TextView tvUsername;
-        public TextView tvBody;
-        public TextView tvTime;
+    public class ViewHolder extends RecyclerView.ViewHolder implements  View.OnClickListener{
+        @BindView(R.id.ivProfileImage) ImageView ivProfileImage;
+        @BindView(R.id.tvUserName) TextView tvUsername;
+        @BindView(R.id.tvTime) TextView tvTime;
+        @BindView(R.id.tvBody) TextView tvBody;
+        @BindView(R.id.tvNumLikes) TextView tvNumLikes;
+        @BindView(R.id.tvNumRetweet) TextView tvNumRetweet;
 
         public ViewHolder(View itemView){
             super(itemView);
-            //id lookups
-            ivProfileImage = (ImageView) itemView.findViewById(R.id.ivProfileImage);
-            tvUsername = (TextView) itemView.findViewById(R.id.tvUserName);
-            tvBody = (TextView) itemView.findViewById(R.id.tvBody);
-            tvTime = (TextView) itemView.findViewById(R.id.tvTime);
+            ButterKnife.bind(this,itemView);
+            itemView.setOnClickListener(this);
         }
 
+        @Override
+        public void onClick(View v) {
+             Log.d("TweeterAdapter", "Clicked");
+            // gets item position
+            int position = getAdapterPosition();
+            // make sure the position is valid, i.e. actually exists in the view
+            if (position != RecyclerView.NO_POSITION) {
+                // get the movie at the position, this won't work if the class is static
+                Tweet tweet = mTweets.get(position);
+                // create intent for the new activity
+                Intent intent = new Intent(context, TweetDetailActivity.class);
+                // serialize the movie using parceler, use its short name as a key
+                intent.putExtra(Tweet.class.getSimpleName(), Parcels.wrap(tweet));
+                // show the activity
+                context.startActivity(intent);
+            }
+        }
     }
 }

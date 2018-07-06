@@ -1,4 +1,4 @@
-#Thu Jul 05 14:11:33 PDT 2018
+#Fri Jul 06 00:17:39 PDT 2018
 base.0=/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex

@@ -8,7 +8,7 @@ import org.parceler.IdentityCollection;
 import org.parceler.ParcelWrapper;
 import org.parceler.ParcelerRuntimeException;
 
-@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2018-07-05T14:49-0700")
+@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2018-07-06T16:09-0700")
 @SuppressWarnings({
     "unchecked",
     "deprecation"
@@ -52,9 +52,11 @@ public class Tweet$$Parcelable
             parcel$$1 .writeInt(identityMap$$0 .put(tweet$$1));
             parcel$$1 .writeLong(tweet$$1 .uid);
             parcel$$1 .writeString(tweet$$1 .createdAt);
+            parcel$$1 .writeInt(tweet$$1 .favouriteCount);
             parcel$$1 .writeString(tweet$$1 .time);
             parcel$$1 .writeString(tweet$$1 .body);
             com.codepath.apps.restclienttemplate.models.User$$Parcelable.write(tweet$$1 .user, parcel$$1, flags$$0, identityMap$$0);
+            parcel$$1 .writeInt(tweet$$1 .retweetCount);
         }
     }
 
@@ -82,10 +84,12 @@ public class Tweet$$Parcelable
             identityMap$$1 .put(reservation$$0, tweet$$4);
             tweet$$4 .uid = parcel$$3 .readLong();
             tweet$$4 .createdAt = parcel$$3 .readString();
+            tweet$$4 .favouriteCount = parcel$$3 .readInt();
             tweet$$4 .time = parcel$$3 .readString();
             tweet$$4 .body = parcel$$3 .readString();
             User user$$0 = com.codepath.apps.restclienttemplate.models.User$$Parcelable.read(parcel$$3, identityMap$$1);
             tweet$$4 .user = user$$0;
+            tweet$$4 .retweetCount = parcel$$3 .readInt();
             com.codepath.apps.restclienttemplate.models.Tweet tweet$$3 = tweet$$4;
             identityMap$$1 .put(identity$$1, tweet$$3);
             return tweet$$3;

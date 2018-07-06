@@ -6,7 +6,7 @@
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
-        <item name="colorPrimary">#13B8D9</item>
+        <item name="colorPrimary">@color/twitter_blue</item>
 
         <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
     </style>
@@ -21,6 +21,10 @@
     </style>
     <style name="counterText">140</style>
     <style name="counterOverride">You have exceeded the 140 character limit</style>
+
+    <style name="txtCol">
+        <item name="android:textColor"> #FFFFFF</item>
+    </style>
 
     <!--<style name="MyTheme" parent="@android:style/Theme.Holo.Light">-->
         <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
