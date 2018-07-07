@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Locale;
 
 
+/*Model for a tweet*/
 
 @Parcel
 public class Tweet {
@@ -21,6 +22,8 @@ public class Tweet {
     public String time;
     public int retweetCount;
     public int favouriteCount;
+    public boolean favorited;
+    public boolean retweeted;
 
 
     public Tweet(){}
@@ -36,6 +39,8 @@ public class Tweet {
         tweet.time = getRelativeTimeAgo(tweet.createdAt);
         tweet.retweetCount = jsonObject.getInt("retweet_count");
         tweet.favouriteCount = jsonObject.getInt("favorite_count");
+        tweet.favorited = jsonObject.getBoolean("favorited");
+        tweet.retweeted = jsonObject.getBoolean("retweeted");
         return tweet;
     }
     // getRelativeTimeAgo("Mon Apr 01 21:16:23 +0000 2014");
@@ -55,7 +60,5 @@ public class Tweet {
 
         return relativeDate;
     }
-
-
 
 }

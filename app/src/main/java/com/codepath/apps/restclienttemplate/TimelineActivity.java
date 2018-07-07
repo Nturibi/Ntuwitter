@@ -217,5 +217,6 @@ public class TimelineActivity extends AppCompatActivity {
             rvTweets.scrollToPosition(0);
         }
     }
+
 }
 

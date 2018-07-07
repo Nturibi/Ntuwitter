@@ -418,6 +418,22 @@
             ]
         },
         {
+            "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat",
             "map": [
                 {
@@ -445,22 +461,6 @@
                         "startOffsets": "105,210,314,428,514,625,741,821,900,984,1093,1200,1301,1409,1514,1621,1782,1881",
                         "endColumns": "104,103,113,85,110,115,79,78,83,108,106,100,107,104,106,160,98,83",
                         "endOffsets": "205,309,423,509,620,736,816,895,979,1088,1195,1296,1404,1509,1616,1777,1876,1960"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]
@@ -924,38 +924,6 @@
             ]
         },
         {
-            "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8e1eeba26bee848e4d064578d1c444e5/res/values-pl/values-pl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1968",
-                        "endColumns": "100",
-                        "endOffsets": "2064"
-                    }
-                },
-                {
-                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/res/values-pl/values-pl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,221,323,431,517,626,745,823,900,982,1091,1200,1299,1408,1519,1627,1790,1886",
-                        "endColumns": "115,101,107,85,108,118,77,76,81,108,108,98,108,110,107,162,95,81",
-                        "endOffsets": "216,318,426,512,621,740,818,895,977,1086,1195,1294,1403,1514,1622,1785,1881,1963"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat",
             "map": [
                 {
@@ -983,6 +951,38 @@
                         "startOffsets": "1947",
                         "endColumns": "100",
                         "endOffsets": "2043"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8e1eeba26bee848e4d064578d1c444e5/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1968",
+                        "endColumns": "100",
+                        "endOffsets": "2064"
+                    }
+                },
+                {
+                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,221,323,431,517,626,745,823,900,982,1091,1200,1299,1408,1519,1627,1790,1886",
+                        "endColumns": "115,101,107,85,108,118,77,76,81,108,108,98,108,110,107,162,95,81",
+                        "endOffsets": "216,318,426,512,621,740,818,895,977,1086,1195,1294,1403,1514,1622,1785,1881,1963"
                     }
                 }
             ]
@@ -1484,22 +1484,6 @@
             ]
         },
         {
-            "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/res/values-watch-v20/values-watch-v20.xml",
-                    "from": {
-                        "startLines": "2,5,8",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,214,385",
-                        "endLines": "4,7,10",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "209,380,553"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat",
             "map": [
                 {
@@ -1527,6 +1511,22 @@
                         "startOffsets": "105,212,312,423,509,617,735,816,897,981,1086,1195,1294,1400,1511,1620,1786,1884",
                         "endColumns": "106,99,110,85,107,117,80,80,83,104,108,98,105,110,108,165,97,87",
                         "endOffsets": "207,307,418,504,612,730,811,892,976,1081,1190,1289,1395,1506,1615,1781,1879,1967"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/knturibi/Documents/codecamp/Ntuwitter/app/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/knturibi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/be161ceb8221e2643c62249814396167/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
                     }
                 }
             ]

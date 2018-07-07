@@ -8,7 +8,7 @@ import org.parceler.IdentityCollection;
 import org.parceler.ParcelWrapper;
 import org.parceler.ParcelerRuntimeException;
 
-@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2018-07-06T16:09-0700")
+@Generated(value = "org.parceler.ParcelAnnotationProcessor", date = "2018-07-06T18:15-0700")
 @SuppressWarnings({
     "unchecked",
     "deprecation"
@@ -57,6 +57,8 @@ public class Tweet$$Parcelable
             parcel$$1 .writeString(tweet$$1 .body);
             com.codepath.apps.restclienttemplate.models.User$$Parcelable.write(tweet$$1 .user, parcel$$1, flags$$0, identityMap$$0);
             parcel$$1 .writeInt(tweet$$1 .retweetCount);
+            parcel$$1 .writeInt((tweet$$1 .favorited? 1 : 0));
+            parcel$$1 .writeInt((tweet$$1 .retweeted? 1 : 0));
         }
     }
 
@@ -90,6 +92,8 @@ public class Tweet$$Parcelable
             User user$$0 = com.codepath.apps.restclienttemplate.models.User$$Parcelable.read(parcel$$3, identityMap$$1);
             tweet$$4 .user = user$$0;
             tweet$$4 .retweetCount = parcel$$3 .readInt();
+            tweet$$4 .favorited = (parcel$$3 .readInt() == 1);
+            tweet$$4 .retweeted = (parcel$$3 .readInt() == 1);
             com.codepath.apps.restclienttemplate.models.Tweet tweet$$3 = tweet$$4;
             identityMap$$1 .put(identity$$1, tweet$$3);
             return tweet$$3;

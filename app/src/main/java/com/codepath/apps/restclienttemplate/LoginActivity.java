@@ -10,6 +10,8 @@ import com.codepath.apps.restclienttemplate.models.SampleModel;
 import com.codepath.apps.restclienttemplate.models.SampleModelDao;
 import com.codepath.oauth.OAuthLoginActionBarActivity;
 
+/*@LoginActivity handles login to a user's twitter account*/
+
 public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 
 	@Override

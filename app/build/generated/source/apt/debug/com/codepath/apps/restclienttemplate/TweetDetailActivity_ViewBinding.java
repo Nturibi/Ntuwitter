@@ -30,6 +30,8 @@ public class TweetDetailActivity_ViewBinding<T extends TweetDetailActivity> impl
     target.tvNumRetweet = Utils.findRequiredViewAsType(source, R.id.tvNumRetweet, "field 'tvNumRetweet'", TextView.class);
     target.tvNumFollowers = Utils.findRequiredViewAsType(source, R.id.tvNumFollowers, "field 'tvNumFollowers'", TextView.class);
     target.tvNumTweets = Utils.findRequiredViewAsType(source, R.id.tvNumTweets, "field 'tvNumTweets'", TextView.class);
+    target.ivNumLikes = Utils.findRequiredViewAsType(source, R.id.ivNumLikes, "field 'ivNumLikes'", ImageView.class);
+    target.ivNumRetweet = Utils.findRequiredViewAsType(source, R.id.ivNumRetweet, "field 'ivNumRetweet'", ImageView.class);
   }
 
   @Override
@@ -48,6 +50,8 @@ public class TweetDetailActivity_ViewBinding<T extends TweetDetailActivity> impl
     target.tvNumRetweet = null;
     target.tvNumFollowers = null;
     target.tvNumTweets = null;
+    target.ivNumLikes = null;
+    target.ivNumRetweet = null;
 
     this.target = null;
   }

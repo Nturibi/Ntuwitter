@@ -3,6 +3,7 @@ package com.codepath.apps.restclienttemplate.models;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.parceler.Parcel;
+/*Model for a twitter user*/
 
 @Parcel
 public class User  {

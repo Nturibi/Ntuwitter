@@ -17,6 +17,8 @@ import org.parceler.Parcels;
 
 import cz.msebera.android.httpclient.Header;
 
+/*@ComposeActivity handles the composition of a tweet*/
+
 public class ComposeActivity extends AppCompatActivity {
     private final int REQUEST_CODE = 20;
     TwitterClient client;
