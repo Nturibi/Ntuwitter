@@ -53,6 +53,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         holder.tvTime.setText(tweet.time);
         holder.tvNumRetweet.setText(Integer.toString(tweet.retweetCount));
         holder.tvNumLikes.setText(Integer.toString(tweet.favouriteCount));
+        holder.tvScreenName.setText("@"+tweet.user.screenName);
         //load image using glideapp
         Glide.with(context).load(tweet.user.profileImageUrl).into(holder.ivProfileImage);
     }
@@ -79,6 +80,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
         @BindView(R.id.tvBody) TextView tvBody;
         @BindView(R.id.tvNumLikes) TextView tvNumLikes;
         @BindView(R.id.tvNumRetweet) TextView tvNumRetweet;
+        @BindView(R.id.tvScreenName) TextView tvScreenName;
 
         public ViewHolder(View itemView){
             super(itemView);

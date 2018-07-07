@@ -24,6 +24,7 @@ public class TweetAdapter$ViewHolder_ViewBinding<T extends TweetAdapter.ViewHold
     target.tvBody = Utils.findRequiredViewAsType(source, R.id.tvBody, "field 'tvBody'", TextView.class);
     target.tvNumLikes = Utils.findRequiredViewAsType(source, R.id.tvNumLikes, "field 'tvNumLikes'", TextView.class);
     target.tvNumRetweet = Utils.findRequiredViewAsType(source, R.id.tvNumRetweet, "field 'tvNumRetweet'", TextView.class);
+    target.tvScreenName = Utils.findRequiredViewAsType(source, R.id.tvScreenName, "field 'tvScreenName'", TextView.class);
   }
 
   @Override
@@ -38,6 +39,7 @@ public class TweetAdapter$ViewHolder_ViewBinding<T extends TweetAdapter.ViewHold
     target.tvBody = null;
     target.tvNumLikes = null;
     target.tvNumRetweet = null;
+    target.tvScreenName = null;
 
     this.target = null;
   }
